@@ -1,0 +1,90 @@
+.cwl-btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  text-decoration: none;
+}
+
+.cwl-btn:hover {
+  color: #fff;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.cwl-btn-disabled {
+  background: grey;
+  background-image: none;
+}
+
+.cwl-btn-disabled:hover {
+  background: grey;
+  background-image: none;
+}
+
+.cwl-btn-ok {
+  background: #02c202;
+  background-image: -webkit-linear-gradient(top, #02c202, #008a02);
+  background-image: -moz-linear-gradient(top, #02c202, #008a02);
+  background-image: -ms-linear-gradient(top, #02c202, #008a02);
+  background-image: -o-linear-gradient(top, #02c202, #008a02);
+  background-image: linear-gradient(to bottom, #02c202, #008a02);
+}
+
+.cwl-btn-ok:hover {
+  background: #00db07;
+  background-image: -webkit-linear-gradient(top, #00db07, #02a805);
+  background-image: -moz-linear-gradient(top, #00db07, #02a805);
+  background-image: -ms-linear-gradient(top, #00db07, #02a805);
+  background-image: -o-linear-gradient(top, #00db07, #02a805);
+  background-image: linear-gradient(to bottom, #00db07, #02a805);
+}
+
+.cwl-btn-ko {
+  background: #c20404;
+  background-image: -webkit-linear-gradient(top, #c20404, #8a0000);
+  background-image: -moz-linear-gradient(top, #c20404, #8a0000);
+  background-image: -ms-linear-gradient(top, #c20404, #8a0000);
+  background-image: -o-linear-gradient(top, #c20404, #8a0000);
+  background-image: linear-gradient(to bottom, #c20404, #8a0000);
+}
+
+.cwl-btn-ko:hover {
+  background: #d90000;
+  background-image: -webkit-linear-gradient(top, #d90000, #a60303);
+  background-image: -moz-linear-gradient(top, #d90000, #a60303);
+  background-image: -ms-linear-gradient(top, #d90000, #a60303);
+  background-image: -o-linear-gradient(top, #d90000, #a60303);
+  background-image: linear-gradient(to bottom, #d90000, #a60303);  
+}
+
+.cwl-wishlist {
+  margin-top: 2em;
+}
+
+.cwl-wishlist tbody td {
+  vertical-align: middle;
+}
+
+.cwl-wishlist img {
+  width: 25%;
+}
+
